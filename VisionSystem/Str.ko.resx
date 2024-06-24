@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>추가</value>
+    <comment>Main</comment>
+  </data>
+  <data name="AddCamera" xml:space="preserve">
+    <value>카메라 추가</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Adminpwchange" xml:space="preserve">
+    <value>관리자 비밀번호 변경 완료</value>
+  </data>
+  <data name="Align" xml:space="preserve">
+    <value>정렬</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>적용</value>
+    <comment>Main</comment>
+  </data>
+  <data name="AutoDeleteImage" xml:space="preserve">
+    <value>이미지 자동 삭제 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Camconn" xml:space="preserve">
+    <value>카메라 연결 중...</value>
+  </data>
+  <data name="camconndis" xml:space="preserve">
+    <value>카메라 연결 해제 중...</value>
+  </data>
+  <data name="CamConnerr" xml:space="preserve">
+    <value>카메라 연결 오류 : </value>
+  </data>
+  <data name="CameraCount" xml:space="preserve">
+    <value>카메라 수량 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>변경</value>
+    <comment>Main</comment>
+  </data>
+  <data name="changePW" xml:space="preserve">
+    <value>비밀번호 변경</value>
+  </data>
+  <data name="changePWmsg" xml:space="preserve">
+    <value>비밀번호를 변경 하시겠습니까?</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>확인</value>
+    <comment>Main</comment>
+  </data>
+  <data name="chkDrive" xml:space="preserve">
+    <value>디스크 용량 체크</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>닫기</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Commconn" xml:space="preserve">
+    <value>통신 연결 중...</value>
+  </data>
+  <data name="commdis" xml:space="preserve">
+    <value>통신 연결 해제 중...</value>
+  </data>
+  <data name="CommunicationSetting" xml:space="preserve">
+    <value>통신 설정</value>
+    <comment>Main</comment>
+  </data>
+  <data name="conncommerr" xml:space="preserve">
+    <value>통신 연결 오류 : </value>
+  </data>
+  <data name="connecting" xml:space="preserve">
+    <value>연결중...</value>
+  </data>
+  <data name="Currentpassword" xml:space="preserve">
+    <value>현재 비밀번호 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Datainserterr" xml:space="preserve">
+    <value>데이터 저장 오류 : </value>
+  </data>
+  <data name="dataloaderr" xml:space="preserve">
+    <value>데이터 불러오기 오류 : </value>
+  </data>
+  <data name="dataOpen" xml:space="preserve">
+    <value>데이터 불러오기 완료</value>
+  </data>
+  <data name="Discrepancy" xml:space="preserve">
+    <value>(불일치)</value>
+    <comment>Main</comment>
+  </data>
+  <data name="DiskcapacityRate" xml:space="preserve">
+    <value>디스크 용량 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="entercamcnt" xml:space="preserve">
+    <value>카메라 수량을 입력하여 주십시오.</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>비밀번호 입력 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="enterquantity" xml:space="preserve">
+    <value>값을 입력하여 주십시오.</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Grabcomplete" xml:space="preserve">
+    <value>이미지 취득 완료</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>세로</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>도움말</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Historyload" xml:space="preserve">
+    <value>이력 조회 데이터 로딩 중...</value>
+  </data>
+  <data name="ImageSavePath" xml:space="preserve">
+    <value>저장 이미지 경로 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ImageSetting" xml:space="preserve">
+    <value>이미지 설정</value>
+    <comment>Main</comment>
+  </data>
+  <data name="imgparamnotsave" xml:space="preserve">
+    <value>이미지 설장값 저장 오류 : </value>
+  </data>
+  <data name="imgParamsave" xml:space="preserve">
+    <value>이미지 설정값 저장 완료</value>
+  </data>
+  <data name="initcamerr" xml:space="preserve">
+    <value>카메라 초기화 오류 : </value>
+  </data>
+  <data name="InitControl" xml:space="preserve">
+    <value>컨트롤 초기화</value>
+  </data>
+  <data name="initcontrolerr" xml:space="preserve">
+    <value>컨트롤 초기화 오류 :</value>
+  </data>
+  <data name="InspResult" xml:space="preserve">
+    <value>검사 결과</value>
+  </data>
+  <data name="IOconn" xml:space="preserve">
+    <value>I/O 연결</value>
+  </data>
+  <data name="IOdisconn" xml:space="preserve">
+    <value>I/O 연결 안됨</value>
+  </data>
+  <data name="LicenseActive" xml:space="preserve">
+    <value>라이센스 활성화</value>
+    <comment>loading</comment>
+  </data>
+  <data name="Licensecheck" xml:space="preserve">
+    <value>라이센스 확인 중...</value>
+    <comment>Loading</comment>
+  </data>
+  <data name="Licensenotactive" xml:space="preserve">
+    <value>라이센스 비활성화</value>
+  </data>
+  <data name="loadParam" xml:space="preserve">
+    <value>파라미터 불러오기</value>
+  </data>
+  <data name="loadrecipe" xml:space="preserve">
+    <value>레시피 불러오기</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>로그</value>
+    <comment>Main</comment>
+  </data>
+  <data name="LotNo" xml:space="preserve">
+    <value>Lot No : </value>
+    <comment>Main</comment>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>(Match)</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>메뉴</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model : </value>
+    <comment>Main</comment>
+  </data>
+  <data name="modelchange" xml:space="preserve">
+    <value>모델 변경 : </value>
+  </data>
+  <data name="ModelSetting" xml:space="preserve">
+    <value>모델 설정</value>
+    <comment>Main</comment>
+  </data>
+  <data name="NoCam" xml:space="preserve">
+    <value>연결된 카메라가 없습니다.</value>
+  </data>
+  <data name="oppwchange" xml:space="preserve">
+    <value>작업자 비밀번호 변경 완료</value>
+  </data>
+  <data name="OriginalImageSaveFormat" xml:space="preserve">
+    <value>원본 이미지 포멧 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="OriginImgSave" xml:space="preserve">
+    <value>원본 이미지 저장 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="paramload" xml:space="preserve">
+    <value>설정값 불러오기 완료</value>
+  </data>
+  <data name="paramloaderr" xml:space="preserve">
+    <value>설정값 불러오기 오류 : </value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>비밀번호 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="PasswordChange" xml:space="preserve">
+    <value>비밀번호 변경</value>
+    <comment>Main</comment>
+  </data>
+  <data name="plcconn" xml:space="preserve">
+    <value>PLC 연결</value>
+  </data>
+  <data name="plcdisconn" xml:space="preserve">
+    <value>PLC 연결 안됨</value>
+  </data>
+  <data name="PrepareProgram" xml:space="preserve">
+    <value>프로그램 준비 중</value>
+  </data>
+  <data name="proceedcomm" xml:space="preserve">
+    <value>통신 설정을 진행하여 주십시오.</value>
+  </data>
+  <data name="programclose" xml:space="preserve">
+    <value>프로그램 종료</value>
+  </data>
+  <data name="programexit" xml:space="preserve">
+    <value>프로그램을 종료 하시겠습니까?</value>
+  </data>
+  <data name="programstart" xml:space="preserve">
+    <value>프로그램 시작</value>
+  </data>
+  <data name="PWnotMatch" xml:space="preserve">
+    <value>비밀번호가 일치하지 않습니다.</value>
+  </data>
+  <data name="recipeloaderr" xml:space="preserve">
+    <value>레시피 불러오기 오류 : </value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>이력 조회</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ReenterPasswrod" xml:space="preserve">
+    <value>비밀번호 다시 입력 :</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>초기화</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ResultImageSave" xml:space="preserve">
+    <value>결과 이미지 저장 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ResultImageSaveFormat" xml:space="preserve">
+    <value>결과 이미지 포멧 :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>저장</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Settime" xml:space="preserve">
+    <value>현재 시간 설정</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>가로</value>
+    <comment>Main</comment>
+  </data>
+  <data name="SaveImgSet" xml:space="preserve">
+    <value>이미지 저장 설정</value>
+  </data>
+  <data name="FormDel" xml:space="preserve">
+    <value>화면을 삭제 하시겠습니까?</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>로딩중...</value>
+  </data>
+  <data name="WaitMsg" xml:space="preserve">
+    <value>잠시만 기다려 주십시오</value>
+  </data>
+  <data name="SaveMasterImgMsg" xml:space="preserve">
+    <value>마스터 이미지를 저장 하시겠습니까?</value>
+  </data>
+  <data name="NoMasterImgMsg" xml:space="preserve">
+    <value>저장할 이미지가 없습니다.</value>
+  </data>
+  <data name="SaveCompleteMasterImg" xml:space="preserve">
+    <value>마스터 이미지를 저장 하였습니다.</value>
+  </data>
+  <data name="SensorComm" xml:space="preserve">
+    <value>센서 연결 중...</value>
+  </data>
+  <data name="SensorCommDis" xml:space="preserve">
+    <value>센서 연결 해제중...</value>
+  </data>
+  <data name="SensorConnected" xml:space="preserve">
+    <value>센서가 연결 되었습니다.</value>
+  </data>
+  <data name="SensorDisconnected" xml:space="preserve">
+    <value>센서가 연결되지 않았습니다.</value>
+  </data>
+  <data name="SensorIPMsg" xml:space="preserve">
+    <value>센서 IP를 입력하여 주십시오.</value>
+  </data>
+  <data name="SensorPortMsg" xml:space="preserve">
+    <value>센서 Port를 입력하여 주십시오.</value>
+  </data>
+</root>

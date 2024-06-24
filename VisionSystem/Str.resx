@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>Main</comment>
+  </data>
+  <data name="AddCamera" xml:space="preserve">
+    <value>Add Camera</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Align" xml:space="preserve">
+    <value>Align</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+    <comment>Main</comment>
+  </data>
+  <data name="AutoDeleteImage" xml:space="preserve">
+    <value>Auto Delete Image :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="CameraCount" xml:space="preserve">
+    <value>Camera Count :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Check</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>Main</comment>
+  </data>
+  <data name="CommunicationSetting" xml:space="preserve">
+    <value>Communication Setting</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Currentpassword" xml:space="preserve">
+    <value>Current password :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Discrepancy" xml:space="preserve">
+    <value>(Discrepancy)</value>
+    <comment>Main</comment>
+  </data>
+  <data name="DiskcapacityRate" xml:space="preserve">
+    <value>Disk capacity Rate :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Enter Password :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ImageSavePath" xml:space="preserve">
+    <value>Image Save Path :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ImageSetting" xml:space="preserve">
+    <value>Image Setting</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>Log</value>
+    <comment>Main</comment>
+  </data>
+  <data name="LotNo" xml:space="preserve">
+    <value>Lot No : </value>
+    <comment>Main</comment>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>(Match)</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model : </value>
+    <comment>Main</comment>
+  </data>
+  <data name="ModelSetting" xml:space="preserve">
+    <value>ModelSetting</value>
+    <comment>Main</comment>
+  </data>
+  <data name="OriginalImageSaveFormat" xml:space="preserve">
+    <value>Original Image Save Format :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="OriginImgSave" xml:space="preserve">
+    <value>Original Image Save :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="PasswordChange" xml:space="preserve">
+    <value>Password Change</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Reccord</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ResultImageSave" xml:space="preserve">
+    <value>Result Image Save :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="ResultImageSaveFormat" xml:space="preserve">
+    <value>Result Image Save Format :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Witdh</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Adminpwchange" xml:space="preserve">
+    <value>Admin Password Changed</value>
+  </data>
+  <data name="Camconn" xml:space="preserve">
+    <value>Camera Connecting...</value>
+  </data>
+  <data name="camconndis" xml:space="preserve">
+    <value>Camera Disconnecting...</value>
+  </data>
+  <data name="CamConnerr" xml:space="preserve">
+    <value>Camera Connect Error : </value>
+  </data>
+  <data name="changePW" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="changePWmsg" xml:space="preserve">
+    <value>Do you want to change the password?</value>
+  </data>
+  <data name="chkDrive" xml:space="preserve">
+    <value>Drive status check operation</value>
+  </data>
+  <data name="Commconn" xml:space="preserve">
+    <value>Communication Connecting...</value>
+  </data>
+  <data name="commdis" xml:space="preserve">
+    <value>Communication Disconnecting...</value>
+  </data>
+  <data name="conncommerr" xml:space="preserve">
+    <value>Communication Connect Error : </value>
+  </data>
+  <data name="connecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="Datainserterr" xml:space="preserve">
+    <value>Data Insert Error : </value>
+  </data>
+  <data name="dataloaderr" xml:space="preserve">
+    <value>Data Load Error : </value>
+  </data>
+  <data name="dataOpen" xml:space="preserve">
+    <value>Data DB Open</value>
+  </data>
+  <data name="entercamcnt" xml:space="preserve">
+    <value>Please enter the number of cameras..</value>
+  </data>
+  <data name="enterquantity" xml:space="preserve">
+    <value>Please enter the quantity</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Grabcomplete" xml:space="preserve">
+    <value>Grab Complete</value>
+  </data>
+  <data name="Historyload" xml:space="preserve">
+    <value>History Data File Loading...</value>
+  </data>
+  <data name="imgparamnotsave" xml:space="preserve">
+    <value>Image Parameters Save Error : </value>
+  </data>
+  <data name="imgParamsave" xml:space="preserve">
+    <value>Image Parameters Saved</value>
+  </data>
+  <data name="initcamerr" xml:space="preserve">
+    <value>Init Camera Error : </value>
+  </data>
+  <data name="InitControl" xml:space="preserve">
+    <value>Control Initialization</value>
+  </data>
+  <data name="initcontrolerr" xml:space="preserve">
+    <value>Init Control Error :</value>
+  </data>
+  <data name="InspResult" xml:space="preserve">
+    <value>Inspection Result </value>
+  </data>
+  <data name="IOconn" xml:space="preserve">
+    <value>I/O Connected</value>
+  </data>
+  <data name="IOdisconn" xml:space="preserve">
+    <value>I/O Disconnected</value>
+  </data>
+  <data name="LicenseActive" xml:space="preserve">
+    <value>License actived</value>
+    <comment>loading</comment>
+  </data>
+  <data name="Licensecheck" xml:space="preserve">
+    <value>License Checking...</value>
+    <comment>Loading</comment>
+  </data>
+  <data name="Licensenotactive" xml:space="preserve">
+    <value>License not actived</value>
+  </data>
+  <data name="loadParam" xml:space="preserve">
+    <value>Load Parameter</value>
+  </data>
+  <data name="loadrecipe" xml:space="preserve">
+    <value>Load Recipe</value>
+  </data>
+  <data name="modelchange" xml:space="preserve">
+    <value>Model Change : </value>
+  </data>
+  <data name="NoCam" xml:space="preserve">
+    <value>No cameras are connected</value>
+  </data>
+  <data name="oppwchange" xml:space="preserve">
+    <value>Operator Password Changed</value>
+  </data>
+  <data name="paramload" xml:space="preserve">
+    <value>Parameter Load Completed</value>
+  </data>
+  <data name="paramloaderr" xml:space="preserve">
+    <value>Parameter Load Error : </value>
+  </data>
+  <data name="plcconn" xml:space="preserve">
+    <value>PLC Connected</value>
+  </data>
+  <data name="plcdisconn" xml:space="preserve">
+    <value>PLC Disconnected</value>
+  </data>
+  <data name="PrepareProgram" xml:space="preserve">
+    <value>Preparing for the program</value>
+  </data>
+  <data name="proceedcomm" xml:space="preserve">
+    <value>Please proceed with the communication setting</value>
+  </data>
+  <data name="programclose" xml:space="preserve">
+    <value>Program Close</value>
+  </data>
+  <data name="programexit" xml:space="preserve">
+    <value>Are you sure you want to exit the program?</value>
+  </data>
+  <data name="programstart" xml:space="preserve">
+    <value>Program Start</value>
+  </data>
+  <data name="PWnotMatch" xml:space="preserve">
+    <value>Passwords do not match</value>
+  </data>
+  <data name="recipeloaderr" xml:space="preserve">
+    <value>Recipe Load Error : </value>
+  </data>
+  <data name="ReenterPasswrod" xml:space="preserve">
+    <value>Re-enter Password :</value>
+    <comment>Main</comment>
+  </data>
+  <data name="Settime" xml:space="preserve">
+    <value>Set the current time.</value>
+  </data>
+  <data name="SaveImgSet" xml:space="preserve">
+    <value>Save Image Settings</value>
+  </data>
+  <data name="FormDel" xml:space="preserve">
+    <value>Are you sure you want to delete the screen?</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loaing...</value>
+  </data>
+  <data name="WaitMsg" xml:space="preserve">
+    <value>Please Wait</value>
+  </data>
+  <data name="SaveMasterImgMsg" xml:space="preserve">
+    <value>Do you want to save the master image?</value>
+  </data>
+  <data name="NoMasterImgMsg" xml:space="preserve">
+    <value>There are no images to save.</value>
+  </data>
+  <data name="SaveCompleteMasterImg" xml:space="preserve">
+    <value>Master image saved successfully.</value>
+  </data>
+  <data name="SensorComm" xml:space="preserve">
+    <value>Sensor Connecting...</value>
+  </data>
+  <data name="SensorCommDis" xml:space="preserve">
+    <value>Disconnecting Sensor...</value>
+  </data>
+  <data name="SensorConnected" xml:space="preserve">
+    <value>Sensor Connected.</value>
+  </data>
+  <data name="SensorDisconnected" xml:space="preserve">
+    <value>Sensor Disconnected.</value>
+  </data>
+  <data name="SensorIPMsg" xml:space="preserve">
+    <value>Please enter the sensor IP.</value>
+  </data>
+  <data name="SensorPortMsg" xml:space="preserve">
+    <value>Please enter the sensor Port.</value>
+  </data>
+</root>
