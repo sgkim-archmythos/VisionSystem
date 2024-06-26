@@ -243,6 +243,8 @@ public class GlovalVar
     public bool _bUsePrint = false;
     public bool _bUseSensor = false;
     public bool _bUsePinchange = false;
+
+    public static bool _License = false;
     
 
     public struct RobotParam

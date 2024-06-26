@@ -14,17 +14,17 @@ public delegate void SiemensDisconnectHandler(string strMsg);
 public delegate void SiemensTriggerHandler(int nIdx);
 public delegate void SiemensModelChangeHandler(string strModel);
 public delegate void SiemensLotIDHandler(string strLotID);
-public delegate void SiemensMessagehandler(string strMsg, Color color);
+public delegate void SiemensMessagehandler(string strMsg, Color color, string strMsgType);
 
 public class SiemensPLC
 {
 
-    public MXConnectHandler _OnConnect;
-    public MXDisconnectHandler _OnDisconnect;
-    public MXTriggerHandler _OnTrigger;
-    public MXModelChangeHandler _OnModelChange;
-    public MXLotIDHandler _OnLotIDReceive;
-    public MXMessagehandler _OnMessage;
+    public SiemensConnectHandler _OnConnect;
+    public SiemensDisconnectHandler _OnDisconnect;
+    public SiemensTriggerHandler _OnTrigger;
+    public SiemensModelChangeHandler _OnModelChange;
+    public SiemensLotIDHandler _OnLotIDReceive;
+    public SiemensMessagehandler _OnMessage;
 
     public List<string> _listWriteData = new List<string>();
 

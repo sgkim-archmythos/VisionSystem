@@ -310,7 +310,9 @@
             this.lblkeyenceRes = new DevExpress.XtraEditors.LabelControl();
             this.labelControl27 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
+            this.cogSensorMasterImg = new Cognex.VisionPro.Display.CogDisplay();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
+            this.cogSensorInspImg = new Cognex.VisionPro.Display.CogDisplay();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
             this.listProd = new System.Windows.Forms.ListBox();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
@@ -397,8 +399,7 @@
             this.labelControl33 = new DevExpress.XtraEditors.LabelControl();
             this.barStaticItem28 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem29 = new DevExpress.XtraBars.BarStaticItem();
-            this.cogSensorMasterImg = new Cognex.VisionPro.Display.CogDisplay();
-            this.cogSensorInspImg = new Cognex.VisionPro.Display.CogDisplay();
+            this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::VisionSystem.WaitForm1), true, true);
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel9)).BeginInit();
             this.tablePanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -546,8 +547,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtKeyenceLow.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cogSensorMasterImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cogSensorInspImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl7)).BeginInit();
@@ -581,8 +584,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtPrint1DX.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrintPort.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrintIP.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cogSensorMasterImg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cogSensorInspImg)).BeginInit();
             this.SuspendLayout();
             // 
             // tablePanel9
@@ -1963,7 +1964,7 @@
             this.radResultJPG.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
             this.radResultJPG.Location = new System.Drawing.Point(125, 5);
             this.radResultJPG.Name = "radResultJPG";
-            this.radResultJPG.Size = new System.Drawing.Size(48, 20);
+            this.radResultJPG.Size = new System.Drawing.Size(47, 20);
             this.radResultJPG.TabIndex = 1;
             this.radResultJPG.TabStop = true;
             this.radResultJPG.Text = "JPG";
@@ -1976,7 +1977,7 @@
             this.radResultBMP.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
             this.radResultBMP.Location = new System.Drawing.Point(14, 5);
             this.radResultBMP.Name = "radResultBMP";
-            this.radResultBMP.Size = new System.Drawing.Size(53, 20);
+            this.radResultBMP.Size = new System.Drawing.Size(52, 20);
             this.radResultBMP.TabIndex = 0;
             this.radResultBMP.TabStop = true;
             this.radResultBMP.Text = "BMP";
@@ -2016,7 +2017,7 @@
             this.radOriginJPG.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
             this.radOriginJPG.Location = new System.Drawing.Point(125, 5);
             this.radOriginJPG.Name = "radOriginJPG";
-            this.radOriginJPG.Size = new System.Drawing.Size(48, 20);
+            this.radOriginJPG.Size = new System.Drawing.Size(47, 20);
             this.radOriginJPG.TabIndex = 1;
             this.radOriginJPG.TabStop = true;
             this.radOriginJPG.Text = "JPG";
@@ -2029,7 +2030,7 @@
             this.radOriginBMP.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
             this.radOriginBMP.Location = new System.Drawing.Point(14, 5);
             this.radOriginBMP.Name = "radOriginBMP";
-            this.radOriginBMP.Size = new System.Drawing.Size(53, 20);
+            this.radOriginBMP.Size = new System.Drawing.Size(52, 20);
             this.radOriginBMP.TabIndex = 0;
             this.radOriginBMP.TabStop = true;
             this.radOriginBMP.Text = "BMP";
@@ -3663,7 +3664,7 @@
             // 
             this.flyRobot.AutoSize = true;
             this.flyRobot.Controls.Add(this.flyoutPanelControl10);
-            this.flyRobot.Location = new System.Drawing.Point(12, 981);
+            this.flyRobot.Location = new System.Drawing.Point(34, 843);
             this.flyRobot.Name = "flyRobot";
             this.flyRobot.Options.AnimationType = DevExpress.Utils.Win.PopupToolWindowAnimation.Fade;
             this.flyRobot.OptionsBeakPanel.BeakLocation = DevExpress.Utils.BeakPanelBeakLocation.Top;
@@ -4124,7 +4125,7 @@
             // 
             this.flyKeyence.AutoSize = true;
             this.flyKeyence.Controls.Add(this.flyoutPanelControl11);
-            this.flyKeyence.Location = new System.Drawing.Point(907, 95);
+            this.flyKeyence.Location = new System.Drawing.Point(1105, 451);
             this.flyKeyence.Name = "flyKeyence";
             this.flyKeyence.Options.AnimationType = DevExpress.Utils.Win.PopupToolWindowAnimation.Fade;
             this.flyKeyence.Options.CloseOnHidingOwner = false;
@@ -4476,6 +4477,25 @@
             this.groupControl5.TabIndex = 27;
             this.groupControl5.Text = "마스터 이미지";
             // 
+            // cogSensorMasterImg
+            // 
+            this.cogSensorMasterImg.ColorMapLowerClipColor = System.Drawing.Color.Black;
+            this.cogSensorMasterImg.ColorMapLowerRoiLimit = 0D;
+            this.cogSensorMasterImg.ColorMapPredefined = Cognex.VisionPro.Display.CogDisplayColorMapPredefinedConstants.None;
+            this.cogSensorMasterImg.ColorMapUpperClipColor = System.Drawing.Color.Black;
+            this.cogSensorMasterImg.ColorMapUpperRoiLimit = 1D;
+            this.cogSensorMasterImg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cogSensorMasterImg.DoubleTapZoomCycleLength = 2;
+            this.cogSensorMasterImg.DoubleTapZoomSensitivity = 2.5D;
+            this.cogSensorMasterImg.Location = new System.Drawing.Point(2, 23);
+            this.cogSensorMasterImg.MouseWheelMode = Cognex.VisionPro.Display.CogDisplayMouseWheelModeConstants.Zoom1;
+            this.cogSensorMasterImg.MouseWheelSensitivity = 1D;
+            this.cogSensorMasterImg.Name = "cogSensorMasterImg";
+            this.cogSensorMasterImg.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("cogSensorMasterImg.OcxState")));
+            this.cogSensorMasterImg.Size = new System.Drawing.Size(316, 236);
+            this.cogSensorMasterImg.TabIndex = 30;
+            this.cogSensorMasterImg.Tag = "7";
+            // 
             // groupControl4
             // 
             this.groupControl4.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -4486,6 +4506,25 @@
             this.groupControl4.Size = new System.Drawing.Size(320, 261);
             this.groupControl4.TabIndex = 26;
             this.groupControl4.Text = "검사 이미지";
+            // 
+            // cogSensorInspImg
+            // 
+            this.cogSensorInspImg.ColorMapLowerClipColor = System.Drawing.Color.Black;
+            this.cogSensorInspImg.ColorMapLowerRoiLimit = 0D;
+            this.cogSensorInspImg.ColorMapPredefined = Cognex.VisionPro.Display.CogDisplayColorMapPredefinedConstants.None;
+            this.cogSensorInspImg.ColorMapUpperClipColor = System.Drawing.Color.Black;
+            this.cogSensorInspImg.ColorMapUpperRoiLimit = 1D;
+            this.cogSensorInspImg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cogSensorInspImg.DoubleTapZoomCycleLength = 2;
+            this.cogSensorInspImg.DoubleTapZoomSensitivity = 2.5D;
+            this.cogSensorInspImg.Location = new System.Drawing.Point(2, 23);
+            this.cogSensorInspImg.MouseWheelMode = Cognex.VisionPro.Display.CogDisplayMouseWheelModeConstants.Zoom1;
+            this.cogSensorInspImg.MouseWheelSensitivity = 1D;
+            this.cogSensorInspImg.Name = "cogSensorInspImg";
+            this.cogSensorInspImg.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("cogSensorInspImg.OcxState")));
+            this.cogSensorInspImg.Size = new System.Drawing.Size(316, 236);
+            this.cogSensorInspImg.TabIndex = 31;
+            this.cogSensorInspImg.Tag = "7";
             // 
             // groupControl3
             // 
@@ -4990,7 +5029,7 @@
             // 
             this.flyPrint.AutoSize = true;
             this.flyPrint.Controls.Add(this.flyoutPanelControl12);
-            this.flyPrint.Location = new System.Drawing.Point(20, 165);
+            this.flyPrint.Location = new System.Drawing.Point(26, 199);
             this.flyPrint.Name = "flyPrint";
             this.flyPrint.OptionsBeakPanel.BeakLocation = DevExpress.Utils.BeakPanelBeakLocation.Top;
             this.flyPrint.OwnerControl = this.btnRobot;
@@ -5683,44 +5722,6 @@
             this.barStaticItem29.Name = "barStaticItem29";
             this.barStaticItem29.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
-            // cogSensorMasterImg
-            // 
-            this.cogSensorMasterImg.ColorMapLowerClipColor = System.Drawing.Color.Black;
-            this.cogSensorMasterImg.ColorMapLowerRoiLimit = 0D;
-            this.cogSensorMasterImg.ColorMapPredefined = Cognex.VisionPro.Display.CogDisplayColorMapPredefinedConstants.None;
-            this.cogSensorMasterImg.ColorMapUpperClipColor = System.Drawing.Color.Black;
-            this.cogSensorMasterImg.ColorMapUpperRoiLimit = 1D;
-            this.cogSensorMasterImg.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cogSensorMasterImg.DoubleTapZoomCycleLength = 2;
-            this.cogSensorMasterImg.DoubleTapZoomSensitivity = 2.5D;
-            this.cogSensorMasterImg.Location = new System.Drawing.Point(2, 23);
-            this.cogSensorMasterImg.MouseWheelMode = Cognex.VisionPro.Display.CogDisplayMouseWheelModeConstants.Zoom1;
-            this.cogSensorMasterImg.MouseWheelSensitivity = 1D;
-            this.cogSensorMasterImg.Name = "cogSensorMasterImg";
-            this.cogSensorMasterImg.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("cogSensorMasterImg.OcxState")));
-            this.cogSensorMasterImg.Size = new System.Drawing.Size(316, 236);
-            this.cogSensorMasterImg.TabIndex = 30;
-            this.cogSensorMasterImg.Tag = "7";
-            // 
-            // cogSensorInspImg
-            // 
-            this.cogSensorInspImg.ColorMapLowerClipColor = System.Drawing.Color.Black;
-            this.cogSensorInspImg.ColorMapLowerRoiLimit = 0D;
-            this.cogSensorInspImg.ColorMapPredefined = Cognex.VisionPro.Display.CogDisplayColorMapPredefinedConstants.None;
-            this.cogSensorInspImg.ColorMapUpperClipColor = System.Drawing.Color.Black;
-            this.cogSensorInspImg.ColorMapUpperRoiLimit = 1D;
-            this.cogSensorInspImg.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cogSensorInspImg.DoubleTapZoomCycleLength = 2;
-            this.cogSensorInspImg.DoubleTapZoomSensitivity = 2.5D;
-            this.cogSensorInspImg.Location = new System.Drawing.Point(2, 23);
-            this.cogSensorInspImg.MouseWheelMode = Cognex.VisionPro.Display.CogDisplayMouseWheelModeConstants.Zoom1;
-            this.cogSensorInspImg.MouseWheelSensitivity = 1D;
-            this.cogSensorInspImg.Name = "cogSensorInspImg";
-            this.cogSensorInspImg.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("cogSensorInspImg.OcxState")));
-            this.cogSensorInspImg.Size = new System.Drawing.Size(316, 236);
-            this.cogSensorInspImg.TabIndex = 31;
-            this.cogSensorInspImg.Tag = "7";
-            // 
             // frmMain
             // 
             this.AllowDrop = true;
@@ -5914,8 +5915,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtKeyenceLow.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             this.groupControl5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cogSensorMasterImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
             this.groupControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cogSensorInspImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl7)).EndInit();
@@ -5950,8 +5953,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtPrint1DX.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrintPort.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrintIP.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cogSensorMasterImg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cogSensorInspImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
